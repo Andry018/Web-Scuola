@@ -62,7 +62,7 @@ header {
 }
 .image{
   background-color: red;
-  background-image: url(pizzamain.jpg);
+  background-image: url(/web/images/pizzamain.jpg);
   filter: blur(3px);
   background-size: cover;
   background-position: center;
