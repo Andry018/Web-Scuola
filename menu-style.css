@@ -39,6 +39,11 @@
   }
   #ptable{
     border: 1px solid black;
+    border-collapse: collapse;
+  }
+  #ptable tr td{
+    border: 1px solid  black;
+
   }
 
   .pizzamenu #intestazione{
