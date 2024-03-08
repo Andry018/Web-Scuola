@@ -1,0 +1,69 @@
+* {
+    left: 0;
+  }
+  
+  .menu-item {
+    display: inline-block;
+    background-color: #de3c3f;
+  }
+  
+  #mnuList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #mnuList li {
+    float: right;
+  }
+  
+  #mnuList li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  #mnuList li a:hover {
+    background-color: #111;
+  }
+  .pizzamenu{
+    text-align: center;
+    width :80% ;
+    height: auto;
+    
+  }
+  #ptable{
+    border: 1px solid black;
+  }
+
+  .pizzamenu #intestazione{
+    background-color: grey;
+    font-weight: bolder;
+
+  }
+  .pizzamenu img{
+    width: 100px;
+    height: auto;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    left: 0;
+  }
+  #footer {
+    position: fixed;
+    text-align: center;
+    color: white;
+    background-color: #333;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+  }
