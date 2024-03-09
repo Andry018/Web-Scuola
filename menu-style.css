@@ -1,7 +1,4 @@
-* {
-    left: 0;
-  }
-  
+
   .menu-item {
     display: inline-block;
     background-color: #de3c3f;
@@ -33,11 +30,14 @@
   }
   .pizzamenu{
     text-align: center;
-    width :80% ;
-    height: auto;
-    
+  
   }
   #ptable{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     border: 1px solid black;
     border-collapse: collapse;
   }
@@ -72,3 +72,8 @@
     width: 100%;
     left: 0;
   }
+
+  #hdtxt {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);}
