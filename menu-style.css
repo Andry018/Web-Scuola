@@ -62,17 +62,6 @@
     align-items: center;
     left: 0;
   }
-  #footer {
-    position: fixed;
-    text-align: center;
-    color: white;
-    background-color: #333;
-    height: 100px;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-  }
-
   #hdtxt {
     position: absolute;
     left: 50%;
