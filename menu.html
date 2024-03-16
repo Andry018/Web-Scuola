@@ -1,72 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Orari Pizzeria</title>
-    <link rel="stylesheet" href="menu-style.css" />
-  </head>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menù Pizze - Pizzeria del Buon Gusto</title>
+   <link rel="stylesheet" href="menu-style.css"> 
+</head>
+<body>
+    <!-- Navbar (same as before) -->
+    <div class="navbar">
+      <a href="#">Chi siamo</a>
+      <a href="orari.html">Orari</a>
+      <a href="#">Contatti</a>
+  </div>
 
-  <body>
-    <div class="top">
-    <header>
-      <a href="index.html"><img
-        src="/images/logopi-removebg-preview.png"
-        alt="logo"
-        width="100px"
-        height="auto"
-      /></a>
-      <h1 id="hdtxt">Pizzeria</h1>
-    </header>
-    <nav class="menu">
-      <ul id="mnuList">
-        <li><a href="#">Contatti</a></li>
-        <li><a href="orari.html">Orari</a></li>
-        <li><a href="#">Chi Siamo</a></li>
-      </ul>
-    </nav>
-</div>
-<center>
-<h1>LE NOSTRE PIZZE</h1>
-<div class="pizzamenu">
-    <table id="ptable">
-       
-        <tr id="intestazione">
-            <td>Foto</td>
-            <td>Nome della pizza</td>
-            <td>Ingredienti</td>
-            <td>Prezzo (€)</td>
-        </tr>
-        <tr>
-            <td><img src="/images/pizzas/margherita.png" alt="margherita"></td>
-            <td>Margherita</td>
-            <td>Sugo, Mozzarella di bufala e Basilico</td>
-            <td>5.50</td>
-        </tr>
-        <tr>
-            <td><img src="/images/pizzas/diavola.png" alt="diavola"></td>
-            <td>Diavola</td>
-            <td>Sugo, Mozzarella di bufala, Olive nere, Salame piccante </td>
-            <td>6.50</td>
-        </tr>
-        <tr>
-          <td><img src="/images/pizzas/pistacchiosa.png" alt="pistacchiosa"></td>
-          <td>Pistacchiosa</td>
-          <td>Mozzarella di bufala, Mortadella, Granella di pistacchio</td>
-          <td>7.00</td>
-        </tr>
-        <tr>
-          <td><img src="/images/pizzas/capricciosa.jpg" alt="capricciosa"></td>
-          <td>capricciosa</td>
-          <td>Sugo, Carciofini, Olive, Champignon, Prosciutto Cotto</td>
-          <td>6.50</td>
-        </tr>
-    </table>
-</div>
-</center>
-    <!--Contatti-->
-    <footer id="footer">
-      <small>&copy; 2024 Pizzeria - Tutti i diritti riservati.</small>
-    </footer>
-  </body>
+    <div class="menu-content">
+        <div class="menu-item">
+            <h2>Margherita</h2>
+            <p>Pomodoro, mozzarella, basilico</p>
+            <p>Prezzo: €6,00</p>
+        </div>
+
+        <div class="menu-item">
+            <h2>Diavola</h2>
+            <p>Pomodoro, mozzarella, salame piccante</p>
+            <p>Prezzo: €7,50</p>
+        </div>
+
+        <div class="menu-item">
+          <h2>Americana</h2>
+          <p>Pomodoro, mozzarella, patatine fritte, wurstel</p>
+          <p>Prezzo: €7.50</p>
+      </div>
+
+      <div class="menu-item">
+        <h2>Ortolana</h2>
+        <p>Mozzarella, verdure di stagione</p>
+        <p>Prezzo: €8,50</p>
+      </div>
+
+    <div class="menu-item">
+      <h2>Le 3 P</h2>
+      <p>Mozzarella, Porchetta, Provola, Salame Piccante, Patatinee</p>
+      <p>Prezzo: €9,50</p>
+  </div>
+
+        <a href="index.html"><button class="menu-button">Torna al menù principale</button></a>
+    </div>
+
+    <!-- Footer (same as before) -->
+    <div class="footer">
+      © 2024 Pizzeria del Buon Gusto. Tutti i diritti riservati.
+  </div>
+</body>
 </html>
+
