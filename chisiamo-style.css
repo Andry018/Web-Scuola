@@ -1,0 +1,73 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+/* Main content styles */
+.main-content {
+    padding: 2rem;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.main-content p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Slider styles */
+.slider {
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.slide {
+    position: relative;
+    background-size: cover;
+}
+
+.slide img {
+    width: 100%;
+    height: 250px;
+    transition: transform 0.3s ease;
+}
+
+.slide p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.slide img.hover-zoom:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
