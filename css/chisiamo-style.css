@@ -17,7 +17,9 @@
     text-decoration: none;
     margin: 0 1rem;
 }
-
+#usericon{
+    float: right;
+}
 /* Main content styles */
 .main-content {
     padding: 2rem;

@@ -20,6 +20,10 @@
             margin: 0 1rem;
         }
 
+        #usericon{
+            float: right;
+        }
+
         /* Main content styles */
         .main-content {
             background-image: url('/images/pizzamain.jpg'); /* Replace with your pizza image */
