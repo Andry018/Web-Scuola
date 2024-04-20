@@ -25,7 +25,7 @@
 
       /* Main content styles */
       .menu-content {
-        background-image: url('/images/pizzamain.jpg'); /* Replace with your pizza image */
+        background-image: url('./images/pizzamain.jpg'); /* Replace with your pizza image */
         background-size: cover;
         background-position: center;
         height: 100vh;

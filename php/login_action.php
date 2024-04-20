@@ -3,7 +3,7 @@ session_start();
 require_once('database.php');
 
 if (isset($_SESSION['session_id'])) {
-    header('Location: index.html');
+    header('Location: dashboard.php');
     exit;
 }
 
