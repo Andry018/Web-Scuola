@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pizzeria del Buon Gusto - Chi siamo</title>
+    <title>Pizzeria del Buon Gusto - Account</title>
     <link rel="stylesheet" href="/css/account-style.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2669763530514096"
      crossorigin="anonymous"></script>
@@ -19,7 +19,7 @@
 
     
   <div class="card2">
-    <form class="form" netlify>
+    <form class="form" method="post" action="/php/signup_action.php">
       <p id="heading">Login</p>
       <div class="field">
         <svg
@@ -39,6 +39,7 @@
           class="input-field"
           placeholder="Username"
           autocomplete="off"
+          name="username"
         />
       </div>
       <div class="field">
@@ -54,15 +55,15 @@
             d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z"
           ></path>
         </svg>
-        <input type="password" class="input-field" placeholder="Password" />
+        <input type="password" class="input-field" placeholder="Password" name="password" />
       </div>
       <div class="btn">
         <button class="button1">
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </button>
-        <button class="button2">Sign Up</button>
+        <button class="button2" type="submit">Sign Up</button>
       </div>
-      <
+
     </form>
   </div>
 
