@@ -1,4 +1,52 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione</title>
+    <style>
+        .container{
+            background-color:gray;
+            color: white;
+            padding: 35px;
+            border-radius: 7px;
+            width: 150px;
+            height: 100px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .text{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 5px;
+        }
+        #btn{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: black;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius:  10px;
+            
+            
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text">
+        <?php
 require_once('database.php');
 
 if (isset($_POST['register'])) {
@@ -60,4 +108,10 @@ if (isset($_POST['register'])) {
     }
     
     printf($msg, '<a href="account.html">torna indietro</a>');
-}
+}?>
+        </div>
+    <button id="btn"><a href="../account.html">Accedi</a></button>
+    </div>
+</body>
+</html>
+

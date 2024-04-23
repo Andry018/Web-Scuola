@@ -134,3 +134,14 @@
             background-color: #252525;
             color: white;
           }
+
+          .menu-button {
+            margin-top: 1rem;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
